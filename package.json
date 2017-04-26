@@ -1,6 +1,6 @@
 {
   "name": "business-hours",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Checks whether it's in business hours right now",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,5 @@
   },
   "author": "Mike MacCana <mike.maccana@gmail.com>",
   "license": "MIT",
-  "repository": "mikemaccana/business-hours",
-  "browserify": {
-    "transform": [
-      "brfs",
-      [
-        "babelify",
-        {
-          "presets": ["es2015"]
-        }
-      ]
-    ]
-  }
+  "repository": "mikemaccana/business-hours"
 }
